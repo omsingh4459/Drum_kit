@@ -51,5 +51,5 @@ function buttonanimation(currentkey){
   document.querySelectorAll("."+currentkey)[0].classList.add("pressed");
   setTimeout(function(){
     document.querySelectorAll("."+currentkey)[0].classList.remove("pressed");
-  }, 1000);
+  }, 300);
 }
